@@ -30,6 +30,8 @@ plt.yticks(fontsize=12)
 plt.legend(['Measured values', 'Line of best fit'])
 plt.show()
 
+# Question 2d
+
 #Compute mean value of y
 y_bar = np.mean(y)
 
@@ -41,7 +43,7 @@ r2 = (S_t - S_r) / S_t
 
 print("R-squared value:", r2)
 
-# Question 3
+# Question 3b & c
 
 #Define parameters
 num_iter = 5  # Number of iterations
